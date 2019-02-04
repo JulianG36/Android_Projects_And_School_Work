@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RatingActivity</string>
+    <string name="textBox">Hello</string>
+    <string name="secondText">Rate this Class</string>
+    <string name="submitButton">Submit</string>
+    <string name="editTextHint">Name</string>
+    <string name="nameButton">Enter A Rating</string>
+</resources>

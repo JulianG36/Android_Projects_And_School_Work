@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CarRatingApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name ="Car">Dodge Hellcat</string>
+    <string name="CarRatingApp">Car Rating App</string>
+    <string name="Comments">Comments (Press enter to save)</string>
+    <string name="Ride">Would You Ride?</string>
+    <string name="rb1">Yes</string>
+    <string name="rb2">No</string>
+    <string name="rb3">Not Sure</string>
+    <string name="textBox">Rate Please.. Hit Play Button for Summary</string>
+</resources>

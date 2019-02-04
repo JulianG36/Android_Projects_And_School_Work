@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "789385641693",
+    "firebase_url": "https://maps-1519675749576.firebaseio.com",
+    "project_id": "maps-1519675749576",
+    "storage_bucket": "maps-1519675749576.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789385641693:android:11b5658973a01211",
+        "android_client_info": {
+          "package_name": "com.example.julia.callmenavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789385641693-9ib40i6v95bn55commqsgg2ou64bvhup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtNruTi37k6EUY6aQ988n4rpV7-qGtU_0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

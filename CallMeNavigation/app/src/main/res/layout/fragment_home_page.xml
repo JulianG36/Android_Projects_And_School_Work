@@ -1,0 +1,319 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.julia.callmenavigation.HomePage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:src="@drawable/logo_header"
+            android:scaleType="centerInside"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="10sp"
+            >
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Time"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Latitude"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Longitude"
+                    android:textSize="25sp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id ="@+id/time1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id = "@+id/time2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/time3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/time4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/time5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/time6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/time7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/time8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/time9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/time10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/latitude10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id = "@+id/longitude10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/default_wait"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HomeWorkCalendar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homework_title">Homework Entry</string>
+    <string name="homework_name">Short Description</string>
+    <string name="due_hint">Due Date</string>
+    <string name="assigned_hint">Assigned On</string>
+    <string name="submit_button">Submit</string>
+    <string name="course_hint">Course</string>
+    <string name="view_homework">View Homework</string>
+    <string name="due_date">Due Date:</string>
+    <string name="description">Description: </string>
+    <string name="class_assigned">Class Assigned: </string>
+    <string name="reminder">Reminder</string>
+    <string name="assigned_date">Assigned Date: </string>
+    <string name="default_text">Waiting...</string>
+    <string name="submissions_page">Submission Page</string>
+    <string name="delete">Delete All</string>
+    <string name="delete_row">Done</string>
+</resources>

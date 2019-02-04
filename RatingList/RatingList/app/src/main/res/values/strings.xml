@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RatingList</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_text">Enter Name</string>
+    <string name="button_text">Submit</string>
+    <string name="title_activity_recycle_view">RecycleViewActivity</string>
+    <string name="list_text">Ratings</string>
+    <string name="info_title">Submit Multiple Ratings and Click Ratings to View</string>
+    <string name="reset_text">Reset</string>
+    <string name="save_button">Save</string>
+</resources>

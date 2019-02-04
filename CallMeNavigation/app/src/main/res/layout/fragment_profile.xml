@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.julia.callmenavigation.Profile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Profile"
+        android:textSize="40dp"
+        android:layout_marginLeft="10dp"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/mProfileName"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Not Logged In.."
+                android:textSize="20dp"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Address: "
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/mAddress"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Not Logged In.."
+                android:textSize="20dp"/>
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/mLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"/>
+    <Button
+        android:id="@+id/mSaveObjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save LocationObjects"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mGetObjects"
+        android:text="Get LocationObjects"/>
+</LinearLayout>

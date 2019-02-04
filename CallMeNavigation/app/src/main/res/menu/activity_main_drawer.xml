@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:title="Login"
+            android:icon="@drawable/ic_menu_share"
+            />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_menu_camera"/>
+        <item
+            android:id = "@+id/nav_home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@mipmap/ic_beenhere_black_24dp"
+            android:title="Map View" />
+        <item
+            android:id="@+id/nav_database"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Saved Locations" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Contact " />
+        <item
+            android:id="@+id/nav_reset"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Reset"
+            />
+    </group>
+
+
+</menu>

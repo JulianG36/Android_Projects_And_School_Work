@@ -1,0 +1,23 @@
+<resources>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="question1">Are you at Lewis University?</string>
+    <string name="question2">Do you have a motorcycle?</string>
+    <string name="question3">Is your car\'s plates expired?</string>
+    <string name="question4">Are you 18 years old?</string>
+    <string name="radioBox1">Happy?</string>
+    <string name="radioBox2">Sad?</string>
+    <string name="checkBox1">Alot of Homework? </string>
+    <string name="checkBox2">Some Homework? </string>
+    <string name="checkBox3">No Homework? </string>
+    <string name="secondActivity">Second Page</string>
+    <string name = "app_name"></string>Quiz1>/string>
+    <string name="player_error">Error Initializing: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="maps_button">Maps</string>
+    <string name="youtube_button">Youtube</string>
+</resources>

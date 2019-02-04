@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.julia.homeworkcalendar.HomeworkFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/homework_title"
+            android:layout_marginTop="10dp"
+            android:textSize="40dp"
+            />
+
+            <EditText
+                android:id="@+id/mDescriptionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/homework_name" />
+            <EditText
+                android:id="@+id/mCourseEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/course_hint"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <EditText
+
+                android:id="@+id/mDueEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:inputType="datetime"
+                android:focusable="false"
+                android:hint="@string/due_hint"/>
+                <EditText
+                    android:id="@+id/mAssignedEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:inputType="datetime"
+                    android:focusable="false"
+                    android:hint="@string/assigned_hint"
+                    android:layout_marginLeft="10dp"/>
+                <CheckBox
+                    android:id="@+id/mReminderCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Remind Everyday?"/>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mSubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_button"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
